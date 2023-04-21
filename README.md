@@ -42,10 +42,8 @@ Table 2 Variables of agents
 | --- | --- | --- |
 | fire\_x | double | The x coordinate of the fire start. |
 | fire\_y | double | The y coordinate of the fire start. |
-| height | int | The height of the grid.
- Define by the size of DEM. |
-| width | int | The width of the grid.
- Define by the size of DEM. |
+| height | int | The height of the grid. Define by the size of DEM. |
+| width | int | The width of the grid. Define by the size of DEM. |
 | grid | object | The grid where agent stay.An instance of mesa.space.SingleGrid() |
 | ini\_id | int | The identify id for each new agent. |
 | schedule | object | Objects for handling the time component of a model.An instance of mesa.time.SimultaneousActivation() |
