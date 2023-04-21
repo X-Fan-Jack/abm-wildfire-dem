@@ -83,7 +83,7 @@ Table 3 Input data
 | h | double | Relative humidity (percentage) |
 | fire\_start\_pos | tuple | The start position of fire. |
 
-# 3. Brief Methodology
+## 2.7 Brief Methodology
 
 The model is based on Moore-type neighborhoods and defines the state of the cell at moment as:
 
@@ -100,6 +100,13 @@ Thus, the state of the cell at time will be defined as:
 $$State_{i,j}^{t+1}=f\left(State_{i,j}^t,R_{i-1,j-1}^t,R_{i-1,j}^t,R_{i-1,j+1}^t,R_{i,j-1}^t,R_{i,j+1}^t,R_{i+1,j-1}^t,R_{i+1,j=1}^t,R_{i+1,j+1}^t\right)$$
 
 All agents will have their status updated based on the above algorithm.
+
+# 3. Brief Methodology
+
+Prepare the DEM data for the study area. Then in the section of Variable initialization in python notebook, set the necessary parameters and run the whole document directly. This will open a web window where the model simulation can be performed. At the same time, users can see the topographic distribution of the research area in the Research Area Generation section. User can combine the results of both to get the fire spread trend.     
+
+By using this system, we can observe the extent and trend of fire spread in the study area through a graphical interface. It is possible to deploy reasonable firefighting method to reduce the damage. For example, the area where the flame spreads can be predicted in advance, and then the residents can be evacuated in advance, etc.
+
 
 # Bibliography
 
